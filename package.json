@@ -18,6 +18,7 @@
     "test": "npm run test:es && npm run test:cjs && npm run lint",
     "test:es": "node --max-old-space-size=2048 test/test",
     "test:cjs": "node test/test.cjs",
+    "test:xeronimus": "node test/test.xeronimus.js",
     "lint": "npx eslint src",
     "doc": "npx jsdoc -d doc src/solver.js scoring-rules.config.js",
     "nexe:linux": "npx nexe -i dist/igc-xc-score.cjs -o dist/igc-xc-score-linux -t linux-x64-12.16.2",
